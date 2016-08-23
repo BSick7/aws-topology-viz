@@ -1,0 +1,9 @@
+### Build
+app/.build/
+
+### Packages
+app/lib/
+node_modules/
+
+### Webstorm
+.idea/

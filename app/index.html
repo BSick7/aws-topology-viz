@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="lib/la/dist/la.js"></script>
+    <script src="lib/curve/dist/curve.js"></script>
+    <script src="lib/puck/dist/puck.js"></script>
+    <script src=".build/components/Vpc.js"></script>
+    <script src=".build/VpcVisualizer.js"></script>
+    <script type="text/javascript">
+        window.onload = () => {
+            new viz.VpcVisualizer();
+        };
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>

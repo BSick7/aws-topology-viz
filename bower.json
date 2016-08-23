@@ -1,0 +1,8 @@
+{
+  "name": "aws-topology-viz",
+  "version": "0.1.0",
+  "dependencies": {
+    "exjs": "~0.4.0",
+    "puck": "^0.1.0"
+  }
+}
